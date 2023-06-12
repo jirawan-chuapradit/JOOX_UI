@@ -1,11 +1,29 @@
 
+import Hamburger from "./Hamburger"
+import Download from "../img/download.png"
 import "./Navbar.css"
+import React, { useEffect, useState } from "react";
 const Navbar = ()=>{
+    const [hamburgerOpen, sethamburgerOpen] = useState(false)
+
+    const toggleHamburger = () => {
+        sethamburgerOpen(!hamburgerOpen)
+    }
     return (
         <>
             <div className="row_item">
+                <div className="navigation">
+                    <div className="hamburger" onClick={toggleHamburger}>
+                        <Hamburger/>
+                    </div>
+                    {/* <ul>
+                        <li>Discover</li>
+                        <li>คลังเพลง</li>
+                        <li>VIP</li>
+                    </ul> */}
+                </div>
                 <div className="icon_item">
-                    <h1>Icon</h1>
+                    <h1>JOOX</h1>
                 </div>
 
                 <div className="search_item">
@@ -19,9 +37,24 @@ const Navbar = ()=>{
                 </div>
 
                 <div className="btn_item">
-                    <h1>Button</h1>
+                    <div className="download_btn">
+                        <img className="icon_download" src={Download}/>
+                        <button className="btn">โหลดแอป JOOX บน พีซี</button>
+                    </div>
+                    <div className="sperate_line"/>
+                    <button className="login_btn">เข้าสู่ระบบ</button>
+                    <div className="sperate_line"/>
+                    <button className="sign_up_btn">สมัครสมาชิก</button>
+                    
                 </div>
             </div>
+
+            <style jsx>{`
+                .navigation ul{
+                    display: ${hamburgerOpen ? 'inline' : 'none'};
+                }
+            `}
+            </style>
             
         </>
     )

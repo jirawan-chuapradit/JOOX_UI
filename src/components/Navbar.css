@@ -1,24 +1,27 @@
 .row_item{
-    /* background-color: #111111; */
+    background-color: #111111;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
+    padding: 10px;
 }
 
 .icon_item{
-    width: 140px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 30px;
+    width: 150px;
     height: 50px;
 }
 
 .search_item{
     width: 420px;
     height: 50px;
-}
-
-.btn_item{
-    width: 300px;
-    height: 50px;    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .search{
@@ -27,12 +30,11 @@
     align-items: center;
     background: #f8f9fa;
     border: 1px solid #dfe1e5;
-    border-color: green;
+    border-color: #09de6e;
     box-shadow: none;
     z-index: 3;
     height: 32px;
     max-width: 300px;
-    margin-top: 8px;
 }
 
 .search_icon{
@@ -54,4 +56,96 @@
     
     outline: none;
     font-size: 14px;
+}
+
+.btn_item{
+    height: 36px;
+    width: 540px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.download_btn{
+    height: 36px;
+    width: 200px;  
+    min-width: 100px;
+    background-color: #09de6e;
+    border: 1px solid #09de6e;
+    border-radius: 20px;
+    cursor: pointer;
+    z-index: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.download_btn > .btn{
+    border: none;
+    background-color: transparent;
+}
+
+.btn_item > button{
+    border: none;
+    background-color: transparent;
+    border: 1px solid #bcbcbc;
+    border-radius: 20px;
+    color: #e5e5e5;
+}
+
+.sign_up_btn{
+    height: 36px;
+    min-width: 100px;
+    width: 120px;
+}
+
+
+.login_btn{
+    height: 36px;
+    min-width: 90px;
+    width: 100px;
+}
+
+.sperate_line{
+    height: 36px;
+    width: 0.5px;
+    background-color: #bcbcbc;
+    border: none;
+}
+
+.icon_item{
+    color: #e5e5e5;
+}
+
+.hamburger{
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+    z-index: 10;
+    padding-left: 10px;
+}
+
+.burber{
+    width: 1.5rem;
+    height: 0.15rem;
+    border-radius: 10px;
+    background-color: gray;
+    /* transform-origin: 1px;
+    transition: all 0.3s linear; */
+}
+
+.navigation ul {
+   background-color: transparent;
+   height: 100px;
+   width: 50px;
+   color: white;
+}
+
+.icon_download{
+    height: 20px;
+    width: 20px;   
 }
