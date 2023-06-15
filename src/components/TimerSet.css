@@ -1,5 +1,6 @@
 .timer_set{
-    width: 460px;
+    max-width: 460px;
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -10,13 +11,13 @@
 
 .track{
     height: 2px;
-    width: 300px;
+    width: 100%;
     background-color: rgb(151, 149, 149);
     margin: 0 20px;
 }
 
 .timer_line_2{
-    width: 300px;
+    width: 100%;
     height: 50%;
     display: flex;
     flex-direction: row;
@@ -25,7 +26,7 @@
 }
 
 .timer_line_1{
-    width: 300px;
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: row;

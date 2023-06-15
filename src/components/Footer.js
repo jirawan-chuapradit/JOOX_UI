@@ -17,14 +17,17 @@ return (
             <div className="bg">
                 <div className="item_set">
                     <RadioBtn/>
-                    <TimerSet/>
-                    <VolumeSet/>
-                    <div className="music_btn">
-                        <img  className="music_icon" src ={Play} alt="เนื้อเพลง"/>
+                    <div className="center_footer_container">
+                        <TimerSet/>
                     </div>
                     
+                    <div className="right_footer_container">
+                        <VolumeSet/>
+                        <div className="music_btn">
+                            <img  className="music_icon" src ={Play} alt="เนื้อเพลง"/>
+                        </div>  
+                    </div>
                     <MiniHamburger/>
-                    
                 </div>
             </div>
            
