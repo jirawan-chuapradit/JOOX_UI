@@ -119,32 +119,6 @@
     color: #e5e5e5;
 }
 
-.hamburger{
-    width: 1.5rem;
-    height: 1.5rem;
-    display: flex;
-    justify-content: space-around;
-    flex-flow: column nowrap;
-    z-index: 10;
-    padding-left: 10px;
-}
-
-.burber{
-    width: 1.5rem;
-    height: 0.15rem;
-    border-radius: 10px;
-    background-color: gray;
-    /* transform-origin: 1px;
-    transition: all 0.3s linear; */
-}
-
-.navigation ul {
-   background-color: transparent;
-   height: 100px;
-   width: 50px;
-   color: white;
-}
-
 .icon_download{
     height: 20px;
     width: 20px;   

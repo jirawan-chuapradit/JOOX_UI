@@ -1,0 +1,22 @@
+
+.volume_set{
+    padding: 20px; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 140px;
+    height: 100%;
+    
+}
+
+.track_line{
+    background-color: white;
+    height: 3px;
+    width: 100px;
+}
+
+.speaker_icon{
+    width: 26px;
+    height: 26px; 
+}
