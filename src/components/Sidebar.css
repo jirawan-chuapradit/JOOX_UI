@@ -1,0 +1,44 @@
+.sidebar_bg{
+    background-color: blue;
+    width: 220px;
+    height: 100%;
+    z-index: 1;
+}
+
+.discover_box{
+    width: 100%;
+    height: 144px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 20px;
+}
+
+.discover_item{
+    width: 172px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; 
+    padding: 8px 0 4px 35px;
+}
+
+.discover_icon{
+    width: 36px;
+    height: 36px;
+    padding-right: 8px;
+}
+.discover_name{
+    width: calc(100% - 36px);
+    height: 36px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.joox_icon{
+    width: 140px;
+    height: 140px;
+}
+

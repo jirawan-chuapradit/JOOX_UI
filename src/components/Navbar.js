@@ -1,5 +1,6 @@
 import Hamburger from "./Hamburger";
 import Download from "../img/download.png";
+import Joox from "../img/Joox_Logo.svg"
 import "./Navbar.css";
 import React, { useEffect, useState } from "react";
 const Navbar = () => {
@@ -17,7 +18,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className="icon_item">
-          <h1>JOOX</h1>
+          <img className="joox_icon" src={Joox} />
         </div>
 
         <div className="search_item">
