@@ -1,28 +1,28 @@
 .sidebar_bg{
-    background-color: blue;
+    background-color: rebeccapurple;
     width: 220px;
-    height: 100%;
+    /* height: 100%; */
     z-index: 1;
+    overflow-x: scroll;
+    height: calc(100% - 120px);
 }
 
 .discover_box{
     width: 100%;
     height: 144px;
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding-top: 20px;
 }
 
 .discover_item{
-    width: 172px;
+    width: 100%;
     height: 36px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center; 
-    padding: 8px 0 4px 35px;
+    padding-left: 20%;
 }
 
 .discover_icon{
@@ -42,3 +42,39 @@
     height: 140px;
 }
 
+
+.download_box{
+    width: 100%;
+    height: 144px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;  
+}
+
+.download_ads{
+    width: 80%;
+    height: 80%;  
+    background-color: white;
+}
+.sidebar_bg > .download_box > .download_btn{
+    width: 80%;
+    height: 20%; 
+    margin-top: 10px; 
+    background-color: #09de6e;
+    border: 1px solid #09de6e;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.break_line{
+    width: 100%;
+    height: 1px;   
+    background-color: #ffffff;
+    margin-top: 10px; 
+}
+.title{
+    padding-left: 20%;
+    padding-bottom: 20px;
+}

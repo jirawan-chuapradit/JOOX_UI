@@ -60,7 +60,6 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* flex-shrink: 1; */
 }
 
 .right_footer_container{

@@ -11,7 +11,7 @@ const Navbar = () => {
   };
   return (
     <>
-      <div className="row_item">
+      <div className="nav_bar">
         <div className="navigation">
           <div className="hamburger" onClick={toggleHamburger}>
             <Hamburger />
