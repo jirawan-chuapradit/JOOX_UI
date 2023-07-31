@@ -3,8 +3,8 @@
     width: 220px;
     /* height: 100%; */
     z-index: 1;
-    overflow-x: scroll;
-    height: calc(100% - 120px);
+    overflow-x: hidden;
+    height: calc(100% - 130px);
 }
 
 .discover_box{
