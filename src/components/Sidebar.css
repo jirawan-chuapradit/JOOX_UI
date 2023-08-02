@@ -1,28 +1,26 @@
 .sidebar_bg{
     background-color: rebeccapurple;
     width: 220px;
-    /* height: 100%; */
     z-index: 1;
+    overflow-y: scroll;
     overflow-x: hidden;
     height: calc(100% - 130px);
+    display: flex;
+    flex-direction: column;
 }
 
-.discover_box{
-    width: 100%;
-    height: 144px;
+.jsx_box{
     padding-top: 20px;
     display: flex;
     flex-direction: column;
 }
 
-.discover_item{
-    width: 100%;
-    height: 36px;
+.jsx_item{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center; 
-    padding-left: 20%;
+    padding-left: 10%;
 }
 
 .discover_icon{
@@ -44,8 +42,6 @@
 
 
 .download_box{
-    width: 100%;
-    height: 144px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,13 +50,13 @@
 }
 
 .download_ads{
-    width: 80%;
-    height: 80%;  
+    width: 184px;
+    height: 104px;  
     background-color: white;
 }
 .sidebar_bg > .download_box > .download_btn{
-    width: 80%;
-    height: 20%; 
+    width: 180px;
+    height: 28px; 
     margin-top: 10px; 
     background-color: #09de6e;
     border: 1px solid #09de6e;
@@ -70,11 +66,77 @@
 
 .break_line{
     width: 100%;
-    height: 1px;   
+    height: 20px;   
     background-color: #ffffff;
+    border: 0.5px solid #ffffff;
     margin-top: 10px; 
 }
-.title{
-    padding-left: 20%;
+.title_en{
+    padding-left: 10%;
     padding-bottom: 20px;
+    font-size: 16px;
+}
+
+
+.browse_box{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title__th{
+    padding-left: 10%;
+    padding-bottom: 10px;   
+    font-size: 14px;
+}
+
+.desc_item{
+    font-size: 12px;
+}
+
+.registered_btn {
+    width: 180px;
+    height: 38px; 
+    background-color: transparent;
+    border: 1px solid #09de6e;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.registered_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px; 
+}
+
+.jsx_menu{
+    display: flex;
+    flex-direction: column; 
+    padding: 10px;
+    background-color: blue;
+}
+
+.menu__th{
+    font-size: 16px;
+    padding-left: 10%;
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
+
+.menu__th:hover{
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.social_media{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.social_media_icon{
+    padding: 10px 4px;
 }
