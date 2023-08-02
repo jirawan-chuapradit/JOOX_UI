@@ -1,142 +1,194 @@
-.sidebar_bg{
-    background-color: rebeccapurple;
-    width: 220px;
-    z-index: 1;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    height: calc(100% - 130px);
-    display: flex;
-    flex-direction: column;
+.sidebar_bg {
+  background-color: #262626;
+  width: 220px;
+  z-index: 1;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: calc(100% - 130px);
+  display: flex;
+  flex-direction: column;
+  color: #959595;
 }
 
-.jsx_box{
-    padding-top: 20px;
-    display: flex;
-    flex-direction: column;
+.jsx_browse {
+  color: #bcbcbc;
+  display: flex;
+  flex-direction: column;
+}
+.jsx_box {
+  padding-top: 14px;
+  display: flex;
+  flex-direction: column;
 }
 
-.jsx_item{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center; 
-    padding-left: 10%;
+.jsx_item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 20px;
 }
 
-.discover_icon{
-    width: 36px;
-    height: 36px;
-    padding-right: 8px;
+.discover_icon {
+  width: 36px;
+  height: 36px;
+  padding-right: 8px;
 }
-.discover_name{
-    width: calc(100% - 36px);
-    height: 36px;
-    font-size: 14px;
-    color: #ffffff;
-}
-
-.joox_icon{
-    width: 140px;
-    height: 140px;
+.discover_name {
+  width: calc(100% - 36px);
+  height: 36px;
+  font-size: 14px;
+  color: #ffffff;
 }
 
-
-.download_box{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 20px;  
+.joox_icon {
+  width: 140px;
+  height: 140px;
 }
 
-.download_ads{
-    width: 184px;
-    height: 104px;  
-    background-color: white;
-}
-.sidebar_bg > .download_box > .download_btn{
-    width: 180px;
-    height: 28px; 
-    margin-top: 10px; 
-    background-color: #09de6e;
-    border: 1px solid #09de6e;
-    border-radius: 20px;
-    cursor: pointer;
+.download_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
 }
 
-.break_line{
-    width: 100%;
-    height: 20px;   
-    background-color: #ffffff;
-    border: 0.5px solid #ffffff;
-    margin-top: 10px; 
+.download_ads {
+  width: 184px;
+  height: 104px;
+  background-color: white;
 }
-.title_en{
-    padding-left: 10%;
-    padding-bottom: 20px;
-    font-size: 16px;
-}
-
-
-.browse_box{
-    padding-top: 20px;
-    display: flex;
-    flex-direction: column;
+.sidebar_bg > .download_box > .download_btn {
+  width: 180px;
+  height: 28px;
+  margin-top: 10px;
+  background-color: #09de6e;
+  border: 1px solid #09de6e;
+  border-radius: 20px;
+  cursor: pointer;
 }
 
-.title__th{
-    padding-left: 10%;
-    padding-bottom: 10px;   
-    font-size: 14px;
+.break_line {
+  width: 100%;
+  height: 20px;
+  background-color: #ffffff;
+  border: 0.5px solid #ffffff;
+  margin-top: 10px;
+}
+.title_en {
+  padding-left: 20px;
+  padding-bottom: 26px;
+  font-size: 12px;
 }
 
-.desc_item{
-    font-size: 12px;
+.browse_box {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title__th {
+  padding-left: 20px;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+
+.desc_item {
+  font-size: 12px;
 }
 
 .registered_btn {
-    width: 180px;
-    height: 38px; 
-    background-color: transparent;
-    border: 1px solid #09de6e;
-    border-radius: 20px;
-    cursor: pointer;
-    margin: 10px;
+  width: 180px;
+  height: 38px;
+  background-color: transparent;
+  border: 1px solid #e5e5e5;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 10px;
+  font: 14px;
+  color: #e5e5e5;
 }
 
-.registered_box{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px; 
+.registered_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
 }
 
-.jsx_menu{
-    display: flex;
-    flex-direction: column; 
-    padding: 10px;
-    background-color: blue;
+.jsx_menu {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  color: #bcbcbc;
+  font-size: 14px;
 }
 
-.menu__th{
-    font-size: 16px;
-    padding-left: 10%;
-    padding-bottom: 6px;
-    padding-top: 6px;
+.menu__th {
+  padding-left: 20px;
+  padding-bottom: 6px;
+  padding-top: 6px;
 }
 
-.menu__th:hover{
-    cursor: pointer;
-    color: #ffffff;
+.menu__th:hover {
+  cursor: pointer;
+  color: #ffffff;
 }
 
-.social_media{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+.social_media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
-.social_media_icon{
-    padding: 10px 4px;
+.social_media_icon {
+  padding: 10px 4px;
 }
+
+.jsx_term {
+  font-size: 12px;
+  padding-top: 8px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  color: #959595;
+}
+
+.jsx_term :hover, .lang_btn:hover {
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.jsx_copy_right {
+  font-size: 12px;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  color: #959595;
+}
+
+.lang_btn {
+  color: #bcbcbc;
+  font-size: 14px;
+  text-decoration: none;
+  display: block;
+  border: none;
+  background: none;
+  text-align: left;
+  cursor: pointer;
+  padding-left: 20px;
+}
+
+.lang_dropdown_container{
+    /* display: none; */
+    background-color:black;
+    padding-left: 8px;
+  }
+
+  .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }

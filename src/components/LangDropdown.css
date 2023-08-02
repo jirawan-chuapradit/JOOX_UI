@@ -1,0 +1,9 @@
+.lang_dropdown{
+    background-color: black;
+    color: white;
+}
+
+
+.lang_dropdown:hover{
+    cursor: pointer;
+}

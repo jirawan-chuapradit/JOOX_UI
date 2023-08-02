@@ -1,4 +1,5 @@
 import "./Sidebar.css";
+import LangDropdown from "./LangDropdown";
 const Sidebar = () => {
   return (
     <>
@@ -26,32 +27,34 @@ const Sidebar = () => {
         <div className="break_line" />
 
         <div className="browse_box">
-          <a className="title_en">Browse</a>
-          <div className="jsx_item">
-            <div className="discover_icon">icon</div>
-            <div className="discover_name">Discover</div>
-          </div>
-          <div className="jsx_item">
-            <div className="discover_icon">icon</div>
-            <div className="discover_name">คลังเพลง</div>
-          </div>
+          <div className="jsx_browse">
+            <a className="title_en">Browse</a>
+            <div className="jsx_item">
+              <div className="discover_icon">icon</div>
+              <div className="discover_name">Discover</div>
+            </div>
+            <div className="jsx_item">
+              <div className="discover_icon">icon</div>
+              <div className="discover_name">คลังเพลง</div>
+            </div>
 
-          <div className="jsx_item">
-            <div className="discover_icon">icon</div>
-            <div className="discover_name">VIP</div>
-          </div>
-          <div className="jsx_item">
-            <div className="discover_icon">icon</div>
-            <div className="discover_name">VIP</div>
-          </div>
-          <div className="jsx_item">
-            <div className="discover_icon">icon</div>
-            <div className="discover_name">VIP</div>
-          </div>
+            <div className="jsx_item">
+              <div className="discover_icon">icon</div>
+              <div className="discover_name">VIP</div>
+            </div>
+            <div className="jsx_item">
+              <div className="discover_icon">icon</div>
+              <div className="discover_name">VIP</div>
+            </div>
+            <div className="jsx_item">
+              <div className="discover_icon">icon</div>
+              <div className="discover_name">VIP</div>
+            </div>
 
-          <div className="jsx_item">
-            <div className="discover_icon">icon</div>
-            <div className="discover_name">VIP</div>
+            <div className="jsx_item">
+              <div className="discover_icon">icon</div>
+              <div className="discover_name">VIP</div>
+            </div>
           </div>
         </div>
         <div className="break_line" />
@@ -74,7 +77,16 @@ const Sidebar = () => {
 
           <div className="jsx_menu">
             <a className="menu__th">ดาวน์โหลด</a>
-            <a className="menu__th"> ภาษา/Lang.</a>
+            <button className="lang_btn">
+              ภาษา/Lang
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="lang_dropdown_container">
+              <a href="#">ไทย</a>
+              <a href="#">English</a>
+               {/* {LangDropdown} */}
+            </div>
+            {/* {LangDropdown} */}
             <a className="menu__th">คำถามที่พบบ่อย</a>
             <a className="menu__th">ติดต่อเรา</a>
             <a className="menu__th">แนะนำ ติ-ชม</a>
@@ -90,7 +102,17 @@ const Sidebar = () => {
         </div>
         <div className="break_line" />
         <div className="jsx_box">
-            
+          <div className="jsx_term">
+            <a>ข้อตกลงการใช้งาน</a>
+            <a>ข้อตกลงของผู้ใช้บริการ JOOX</a>
+            <a>ข้อตกลงความเป็นส่วนตัว</a>
+            <a>นโยบายคุกกี้</a>
+            <a>ข้อกำหนดในการลบเพลง</a>
+          </div>
+          <div className="jsx_copy_right">
+            <a>© 2011 - 2023 Tencent.</a>
+            <a>All Rights Reserved</a>
+          </div>
         </div>
       </div>
     </>
