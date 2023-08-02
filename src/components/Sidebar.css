@@ -120,15 +120,12 @@
 .jsx_menu {
   display: flex;
   flex-direction: column;
-  padding: 10px;
   color: #bcbcbc;
   font-size: 14px;
 }
 
 .menu__th {
-  padding-left: 20px;
-  padding-bottom: 6px;
-  padding-top: 6px;
+  padding: 8px 0px 8px 20px;
 }
 
 .menu__th:hover {
@@ -186,9 +183,21 @@
     /* display: none; */
     background-color:black;
     padding-left: 8px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 25px;
   }
+
+.lang_item{
+    color: white;
+    cursor: pointer;
+    padding: 8px;
+    text-decoration: none;
+}
 
   .fa-caret-down {
     float: right;
     padding-right: 8px;
   }
+

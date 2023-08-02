@@ -1,6 +1,12 @@
 import "./Sidebar.css";
 import LangDropdown from "./LangDropdown";
+import * as React from 'react';
 const Sidebar = () => {
+    const [open, setOpen] = React.useState(false)
+
+    const handleOpen = () => {
+        setOpen(!open);
+      };
   return (
     <>
       <div className="sidebar_bg">
@@ -77,16 +83,16 @@ const Sidebar = () => {
 
           <div className="jsx_menu">
             <a className="menu__th">ดาวน์โหลด</a>
-            <button className="lang_btn">
+            <button className="lang_btn" onClick={handleOpen}>
               ภาษา/Lang
               <i class="fa fa-caret-down"></i>
             </button>
-            <div class="lang_dropdown_container">
-              <a href="#">ไทย</a>
-              <a href="#">English</a>
-               {/* {LangDropdown} */}
-            </div>
-            {/* {LangDropdown} */}
+            {open ? ( <div className="lang_dropdown_container">
+              <a className="lang_item" href="#">ไทย</a>
+              <a className="lang_item" href="#">English</a>
+            </div>): null}
+            
+           
             <a className="menu__th">คำถามที่พบบ่อย</a>
             <a className="menu__th">ติดต่อเรา</a>
             <a className="menu__th">แนะนำ ติ-ชม</a>
