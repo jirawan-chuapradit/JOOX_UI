@@ -1,6 +1,6 @@
 import "./Footer.css"
 import Play from "../img/play.svg"
-import Disc from "../img/disc.svg"
+import Disc from "../img/album.png"
 import Star from "../img/star.svg"
 import Share from "../img/share.svg"
 import MiniHamburger from "./Mini_Hamburger"

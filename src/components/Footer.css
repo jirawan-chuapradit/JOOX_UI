@@ -49,8 +49,10 @@
     width: 66px;
     height: 66px;  
     position: fixed;
-    left: 10px;
-    bottom: 10px;
+    left: 20px;
+    bottom: 6px;
+    background-color:#bcbcbc;
+    border-radius: 50%;
 
 }
 
