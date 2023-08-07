@@ -1,5 +1,23 @@
 import "./Sidebar.css";
-import LangDropdown from "./LangDropdown";
+
+import JsxCD from  "../img/jsx_cd.png";
+import Music from  "../img/music.png";
+import Diamond from  "../img/diamond.png";
+
+
+import User from  "../img/browse/user.png";
+import Album from  "../img/browse/album.png";
+import PlayList from  "../img/browse/playlist.png";
+import BarChrt from  "../img/browse/bar-chart.png";
+import Radio from  "../img/browse/radio.png";
+import Video from  "../img/browse/video.png";
+
+import Facebook from  "../img/social/facebook.png";
+import IG from  "../img/social/instagram.png";
+import Twitter from  "../img/social/twitter.png";
+import Youtube from  "../img/social/youtube.png";
+
+
 import * as React from 'react';
 const Sidebar = () => {
     const [open, setOpen] = React.useState(false)
@@ -12,16 +30,16 @@ const Sidebar = () => {
       <div className="sidebar_bg">
         <div className="jsx_box">
           <div className="jsx_item">
-            <div className="discover_icon">icon</div>
+          <img className="discover_icon_jsx" src={JsxCD} />
             <div className="discover_name">Discover</div>
           </div>
           <div className="jsx_item">
-            <div className="discover_icon">icon</div>
+          <img className="discover_icon_jsx" src={Music} />
             <div className="discover_name">คลังเพลง</div>
           </div>
 
           <div className="jsx_item">
-            <div className="discover_icon">icon</div>
+            <img className="discover_icon_jsx" src={Diamond} />
             <div className="discover_name">VIP</div>
           </div>
         </div>
@@ -36,30 +54,30 @@ const Sidebar = () => {
           <div className="jsx_browse">
             <a className="title_en">Browse</a>
             <div className="jsx_item">
-              <div className="discover_icon">icon</div>
-              <div className="discover_name">Discover</div>
+              <img className="discover_icon" src={User} />
+              <div className="discover_name">ศิลปิน</div>
             </div>
             <div className="jsx_item">
-              <div className="discover_icon">icon</div>
-              <div className="discover_name">คลังเพลง</div>
-            </div>
-
-            <div className="jsx_item">
-              <div className="discover_icon">icon</div>
-              <div className="discover_name">VIP</div>
-            </div>
-            <div className="jsx_item">
-              <div className="discover_icon">icon</div>
-              <div className="discover_name">VIP</div>
-            </div>
-            <div className="jsx_item">
-              <div className="discover_icon">icon</div>
-              <div className="discover_name">VIP</div>
+              <img className="discover_icon" src={Album} />
+              <div className="discover_name">อัลบัม</div>
             </div>
 
             <div className="jsx_item">
-              <div className="discover_icon">icon</div>
-              <div className="discover_name">VIP</div>
+              <img className="discover_icon" src={PlayList} />
+              <div className="discover_name">เพลย์ลิสต์</div>
+            </div>
+            <div className="jsx_item">
+              <img className="discover_icon" src={BarChrt} />
+              <div className="discover_name">ชาร์ตเพลง</div>
+            </div>
+            <div className="jsx_item">
+              <img className="discover_icon" src={Radio} />
+              <div className="discover_name">เรดิโอ</div>
+            </div>
+
+            <div className="jsx_item">
+              <img className="discover_icon" src={Video} />
+              <div className="discover_name">วีดีโอ</div>
             </div>
           </div>
         </div>
@@ -99,11 +117,10 @@ const Sidebar = () => {
           </div>
 
           <div className="social_media">
-            <div className="social_media_icon">icon</div>
-            <div className="social_media_icon">icon</div>
-            <div className="social_media_icon">icon</div>
-            <div className="social_media_icon">icon</div>
-            <div className="social_media_icon">icon</div>
+            <img className="social_media_icon" src={Facebook} />
+            <img className="social_media_icon" src={IG} />
+            <img className="social_media_icon" src={Twitter} />
+            <img className="social_media_icon" src={Youtube} />
           </div>
         </div>
         <div className="break_line" />

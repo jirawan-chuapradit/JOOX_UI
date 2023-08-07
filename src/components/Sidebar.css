@@ -29,16 +29,28 @@
   padding-left: 20px;
 }
 
+.discover_icon_jsx{
+  width: 26px;
+  height: 26px;
+  margin-right: 8px;
+  border-radius: 50%;
+  background-color: #e5e5e5;
+}
+
 .discover_icon {
-  width: 36px;
-  height: 36px;
+  width: 26px;
+  height: 26px;
   padding-right: 8px;
+  border-radius: 50%;
 }
 .discover_name {
   width: calc(100% - 36px);
   height: 36px;
   font-size: 14px;
-  color: #ffffff;
+  color: #bcbcbc;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .joox_icon {
@@ -71,9 +83,9 @@
 
 .break_line {
   width: 100%;
-  height: 20px;
+  height: 80px;
   background-color: #ffffff;
-  border: 0.5px solid #ffffff;
+  border: 0.5px #ffffff;
   margin-top: 10px;
 }
 .title_en {
@@ -92,10 +104,13 @@
   padding-left: 20px;
   padding-bottom: 10px;
   font-size: 14px;
+  color: #bcbcbc;
 }
 
 .desc_item {
   font-size: 12px;
+  line-height: 180%;
+  
 }
 
 .registered_btn {
@@ -108,6 +123,11 @@
   margin: 10px;
   font: 14px;
   color: #e5e5e5;
+}
+
+.registered_btn:hover{
+  background-color: white;
+  color: black;
 }
 
 .registered_box {
@@ -124,7 +144,7 @@
   font-size: 14px;
 }
 
-.menu__th {
+.menu__th, .lang_btn {
   padding: 8px 0px 8px 20px;
 }
 
@@ -141,7 +161,11 @@
 }
 
 .social_media_icon {
-  padding: 10px 4px;
+  margin: 10px 6px;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: #e5e5e5;
 }
 
 .jsx_term {
@@ -176,11 +200,9 @@
   background: none;
   text-align: left;
   cursor: pointer;
-  padding-left: 20px;
 }
 
 .lang_dropdown_container{
-    /* display: none; */
     background-color:black;
     padding-left: 8px;
     display: flex;
