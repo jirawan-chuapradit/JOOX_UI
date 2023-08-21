@@ -184,7 +184,7 @@
 
 .jsx_copy_right {
   font-size: 12px;
-  padding: 20px 0;
+  /* padding: 20px 0; */
   display: flex;
   flex-direction: column;
   padding-left: 20px;

@@ -1,0 +1,111 @@
+.content_container{
+    background-color: blueviolet;
+    height: calc(100% - 130px);
+    max-width: calc(100% - 220px);
+    min-width: 520px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.display-left{
+    background-color: blue;
+}
+
+.highlightSlider{
+    padding: 20px 0px;
+}
+
+.swiper-button-prev{
+    background-color: chartreuse;
+}
+
+.swiper-button-next{
+    background-color: chartreuse;
+}
+
+
+
+.chart_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 20px 0px;
+    cursor: pointer;
+    color: white;
+}
+
+
+.th_title{
+    text-decoration: none;
+}
+
+.icon_right{
+    padding-left: 6px;
+}
+
+.chart_title:hover > .icon_right {  padding-left: 12px; }
+/* .icon_right:hover{
+    padding-left: 12px; 
+} */
+
+.content_full{
+    background-color: royalblue;
+    padding: 0px 50px;
+}
+
+.content_contain{
+    background-color: red;
+   
+}
+
+.section_slide_wrap{
+    padding-bottom: 20px;
+}
+
+.track{
+  height: 100px; 
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.thumnail{
+    width: 100px;
+    height: 100px;
+}
+
+.track_title{
+    font-weight: bold;
+}
+
+.track_dsc{
+    margin-left: 8px;
+    margin-top: 4px;
+}
+
+.top_chart_list{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px; 
+    margin-top: 4px;
+}
+
+.music{
+    margin-left: 8px; 
+    font-size: 14px;
+}
+
+.count{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.playlist{
+    margin-top: 2px;
+}
