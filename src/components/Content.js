@@ -65,7 +65,7 @@ const Content = () => {
               >
                 <SwiperSlide>
                   <div className="MediaWrap">
-                    <div className="track">
+                    <div className="jsx_track">
                       <img src={wide} className="thumnail" />
                       <div className="track_dsc">
                         <a className="track_title">Thailand Top 100</a>
@@ -85,12 +85,13 @@ const Content = () => {
                         </div>
                       </div>
                     </div>
+                    <a className="jsx_desc">ฟังเพลงจากชาร์ตเพลง Thailand Top 100 อัพเดทเพลงฮิต ทุกสัปดาห์</a>         
                   </div>
                 </SwiperSlide>
 
                 <SwiperSlide>
                   <div className="MediaWrap">
-                    <div className="track">
+                    <div className="jsx_track">
                       <img src={wide} className="thumnail" />
                       <div className="track_dsc">
                         <a className="track_title">Top 50 International</a>
@@ -110,12 +111,13 @@ const Content = () => {
                         </div>
                       </div>
                     </div>
+                    <a className="jsx_desc">ฟังเพลงจากชาร์ตเพลง Top 50 International อัพเดทเพลงฮิต ทุกสัปดาห์</a>
                   </div>
                 </SwiperSlide>
 
                 <SwiperSlide>
                   <div className="MediaWrap">
-                    <div className="track">
+                    <div className="jsx_track">
                       <img src={wide} className="thumnail" />
                       <div className="track_dsc">
                         <a className="track_title">Top 100 ลูกทุ่ง | ไทบ้าน</a>
@@ -135,6 +137,35 @@ const Content = () => {
                         </div>
                       </div>
                     </div>
+
+                    <a className="jsx_desc">ฟังเพลงจากชาร์ตเพลง Thailand Top 100 อัพเดทเพลงฮิต ทุกสัปดาห์</a>
+                  </div>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                  <div className="MediaWrap">
+                    <div className="jsx_track">
+                      <img src={wide} className="thumnail" />
+                      <div className="track_dsc">
+                        <a className="track_title">Top 100 ลูกทุ่ง | ไทบ้าน</a>
+                        <div className="top_chart_list">
+                          <div className="playlist">
+                            <a className="count">1</a>
+                            <a className="music">รักแรก (First Love)</a>
+                          </div>
+                          <div className="playlist">
+                            <a className="count">2</a>
+                            <a className="music">ไม่เป็นรอง - Cocktail</a>
+                          </div>
+                          <div className="playlist">
+                            <a className="count">3</a>
+                            <a className="music">ยินดี (เพลงประกอบละคร</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <a className="jsx_desc">ฟังเพลงจากชาร์ตเพลง Thailand Top 100 อัพเดทเพลงฮิต ทุกสัปดาห์</a>
                   </div>
                 </SwiperSlide>
               </Swiper>
